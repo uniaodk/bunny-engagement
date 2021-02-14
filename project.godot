@@ -1,0 +1,36 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[  ]
+_global_script_class_icons={
+
+}
+
+[application]
+
+config/name="bunny-engagem"
+config/description="This is a game in development in Godot game engine. The main goal is like the dinossaur at google chrome, you must jump over the obstacles to win. Instead a dinossaur, a bunny its a new feature. About the engagement, the scenery will propose objects or texts that will call her attention."
+config/icon="res://icon.png"
+
+[debug]
+
+gdscript/completion/autocomplete_setters_and_getters=true
+gdscript/warnings/unused_class_variable=true
+
+[display]
+
+window/size/width=640
+window/size/height=360
+window/stretch/mode="2d"
+window/stretch/aspect="keep"
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
